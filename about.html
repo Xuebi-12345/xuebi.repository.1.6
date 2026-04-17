@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME | 雪碧の私库</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f2f2f0;
+            color: #111;
+            padding: 12rem 5vw 6rem;
+            line-height: 1.7;
+        }
+
+        /* 导航栏 */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 12vw;
+            padding: 2rem 0;
+            background-color: rgba(242, 242, 240, 0.85);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.3rem;
+            font-weight: 300;
+            letter-spacing: 0.1em;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #000;
+            transform: translateY(-2px);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #333;
+            margin-bottom: 1.2rem;
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px) {
+            nav { gap: 8vw; padding: 1.5rem 0; }
+            nav a { font-size: 1rem; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="about.html">ABOUT ME</a>
+        <a href="works.html">WORKS</a>
+        <a href="index.html">HOME</a>
+    </nav>
+
+    <div class="container">
+        <h1>ABOUT ME</h1>
+        <p>你好，我是专注于设计与创作的独立创作者。</p>
+        <p>这里记录我的灵感、作品与日常，坚持简约、质感、原创。</p>
+        <p>感谢你来到我的个人空间。</p>
+    </div>
+</body>
+</html>
